@@ -1,0 +1,106 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 6.812 ns
+From           : iSW[2]
+To             : my_pwm_2:inst4|pwm_value[1]
+From Clock     : --
+To Clock       : iCLK_50_2
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 10.184 ns
+From           : unnamed:inst9|lcd_data:the_lcd_data|data_out[5]
+To             : LCD_D[5]
+From Clock     : iCLK_50
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 14.074 ns
+From           : iSW[17]
+To             : oHEX0_D[7]
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 1.534 ns
+From           : altera_internal_jtag~TMSUTAP
+To             : sld_hub:auto_hub|sld_shadow_jsm:shadow_jsm|state[7]
+From Clock     : --
+To Clock       : altera_internal_jtag~TCKUTAP
+Failed Paths   : 0
+
+Type           : Clock Setup: 'iCLK_50'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 115.79 MHz ( period = 8.636 ns )
+From           : unnamed:inst9|cpu:the_cpu|A_slow_inst_sel
+To             : unnamed:inst9|cpu:the_cpu|E_src2[13]
+From Clock     : iCLK_50
+To Clock       : iCLK_50
+Failed Paths   : 0
+
+Type           : Clock Setup: 'altera_internal_jtag~TCKUTAP'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 168.01 MHz ( period = 5.952 ns )
+From           : sld_hub:auto_hub|irsr_reg[0]
+To             : sld_hub:auto_hub|tdo
+From Clock     : altera_internal_jtag~TCKUTAP
+To Clock       : altera_internal_jtag~TCKUTAP
+Failed Paths   : 0
+
+Type           : Clock Setup: 'iCLK_50_2'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 417.89 MHz ( period = 2.393 ns )
+From           : my_pwm_2:inst4|counter[0]
+To             : my_pwm_2:inst4|counter[6]
+From Clock     : iCLK_50_2
+To Clock       : iCLK_50_2
+Failed Paths   : 0
+
+Type           : Clock Setup: 'altera_internal_jtag~CLKDRUSER'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 438.79 MHz ( period = 2.279 ns )
+From           : pzdyqx:nabboc|pzdyqx_impl:pzdyqx_impl_inst|VELJ8121:JDCF0099|AJQN5180[1]
+To             : pzdyqx:nabboc|pzdyqx_impl:pzdyqx_impl_inst|VELJ8121:JDCF0099|DJFL8584[3]
+From Clock     : altera_internal_jtag~CLKDRUSER
+To Clock       : altera_internal_jtag~CLKDRUSER
+Failed Paths   : 0
+
+Type           : Clock Setup: 'altera_internal_jtag~UPDATEUSER'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 500.00 MHz ( period = 2.000 ns )
+From           : pzdyqx:nabboc|pzdyqx_impl:pzdyqx_impl_inst|XWDE0671[2]
+To             : pzdyqx:nabboc|pzdyqx_impl:pzdyqx_impl_inst|XWDE0671[1]
+From Clock     : altera_internal_jtag~UPDATEUSER
+To Clock       : altera_internal_jtag~UPDATEUSER
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+

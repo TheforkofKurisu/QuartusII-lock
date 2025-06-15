@@ -1,0 +1,4 @@
+set_global_assignment -name SDC_FILE cpu.sdc
+set_global_assignment -name SOURCE_FILE cpu.ocp
+set_global_assignment -name SOPC_BUILDER_SIGNATURE_ID E00AF68E34600000019753BA97A7 
+ 
